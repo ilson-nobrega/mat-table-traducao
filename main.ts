@@ -41,7 +41,7 @@ import {
 import {PaginatorOverviewExample} from './app/paginator-overview-example';
 import {HttpModule} from '@angular/http';
 import {CdkTableModule} from '@angular/cdk/table';
-import { getDutchPaginatorIntl } from './app/dutch-paginator-intl';
+import { getPortugueseRangeIntl } from './app/pt-br.mat-table.intl';
 
 
 @NgModule({
@@ -97,7 +97,7 @@ export class DemoMaterialModule {}
   declarations: [PaginatorOverviewExample],
   bootstrap: [PaginatorOverviewExample],
   providers: [
-    { provide: MatPaginatorIntl, useValue: getDutchPaginatorIntl() }
+    { provide: MatPaginatorIntl, useValue: getPortugueseRangeIntl() }
   ]
 })
 export class AppModule {}
