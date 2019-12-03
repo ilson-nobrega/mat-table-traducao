@@ -20,8 +20,8 @@ export function getDutchPaginatorIntl() {
   const paginatorIntl = new MatPaginatorIntl();
   
   paginatorIntl.itemsPerPageLabel = 'Items por pagina:';
-  paginatorIntl.nextPageLabel = 'Volgende pagina';
-  paginatorIntl.previousPageLabel = 'Vorige pagina';
+  paginatorIntl.nextPageLabel = 'Avançar página';
+  paginatorIntl.previousPageLabel = 'Voltar página';
   paginatorIntl.getRangeLabel = dutchRangeLabel;
   
   return paginatorIntl;
