@@ -1,3 +1,3 @@
-# mat-table-traducao
+# Traduzir Componente mat-table do Material Angular
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/mat-table-traducao)
+[Veja no StackBlitz ⚡️](https://stackblitz.com/edit/mat-table-traducao)
